@@ -38,7 +38,7 @@ IIFE : (function (str) {
                       str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
                     } 
                     return str.join(' ');
-                  })("MUDRA IS MY NAME");
+                  })("SABARI IS MY NAME");
  Arrow Function : titleCase = (str) => {
                     str = str.toLowerCase().split(' ');
                     for (var i = 0; i < str.length; i++) {
@@ -118,8 +118,7 @@ function isPalindrome(N)
     
   Anonymous Function :  function (arr, n)
     {
-        // Traversing each element of the array
-        // and check if it is palindrome or not
+        
         for (let i = 0; i < n; i++)
         {
             let ans = isPalindrome(arr[i]);
@@ -133,8 +132,7 @@ function isPalindrome(N)
 
               (  function (arr, n)
         {
-            // Traversing each element of the array
-            // and check if it is palindrome or not
+          
             for (let i = 0; i < n; i++)
             {
                 let ans = isPalindrome(arr[i]);
@@ -147,8 +145,7 @@ function isPalindrome(N)
 Arrow : 
 Palindrome = (arr, n) =>
     {
-        // Traversing each element of the array
-        // and check if it is palindrome or not
+      
         for (let i = 0; i < n; i++)
         {
             let ans = isPalindrome(arr[i]);
